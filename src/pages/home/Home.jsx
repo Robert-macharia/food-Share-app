@@ -8,7 +8,7 @@ import homeData from './mockdata/data'
 const Home = () => {
   return (
     <main className="bg-green-50 min-h-screen text-gray-800">
-  <Hero stats={homeData.stats} story={homeData.story} />
+      <Hero stats={homeData.stats} story={homeData.story} />
       <div className="max-w-6xl mx-auto px-6 -mt-16">
         <Cards items={homeData.cards} />
         <MapSection map={homeData.map} />

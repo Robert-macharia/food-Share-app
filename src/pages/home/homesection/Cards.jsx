@@ -2,9 +2,7 @@ import React from 'react'
 
 const Cards = ({ items = [] }) => {
   return (
-    // push cards slightly down (approx 20px) using mt-5 (1.25rem)
     <section className="mt-5">
-      {/* elevate cards above hero overlays by giving the grid a stacking context */}
       <div className="relative z-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {items.map((it, idx) => {
           const centerIdx = Math.floor(items.length / 2)
