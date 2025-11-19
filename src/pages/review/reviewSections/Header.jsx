@@ -1,12 +1,12 @@
 import React from "react";
 
-const Header = ({ name = "Alex Doe", subtitle, avatarUrl }) => {
+const Header = ({ name, subtitle, avatarUrl }) => {
   return (
-    <header className="flex items-center gap-4 py-4 border-b">
-      <img src={avatarUrl} alt={name} className="w-20 h-20 rounded-full object-cover shadow-sm" />
+    <header className="bg-white rounded-lg p-6 flex items-center gap-4">
+      <img src={avatarUrl} alt={name} className="w-20 h-20 rounded-full border border-gray-100" />
       <div>
-        <h1 className="text-2xl font-semibold">{name}</h1>
-        {subtitle && <p className="text-gray-500 text-sm">{subtitle}</p>}
+        <h2 className="text-xl font-semibold">{name}</h2>
+        <div className="text-sm text-gray-500">{subtitle}</div>
       </div>
     </header>
   );
