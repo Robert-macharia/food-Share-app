@@ -6,8 +6,6 @@ import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 const AuthLayout = () => {
     const navigate= useNavigate();
     const location= useLocation();
-
-
     const isLogin = location.pathname === '/auth/login';
 
   return (

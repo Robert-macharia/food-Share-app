@@ -31,20 +31,20 @@ export const offers = [
 ];
 
 export const claims = [
-  //  {
-  //   id: 1,
-  //   title: "Fresh Loaf of Sourdough Bread",
-  //   status: "Available",
-  //   date: "June 15, 2024",
-  //   image: "https://dummyimage.com/120x120/cccccc/000000&text=Bread",
-  // },
-  // {
-  //   id: 2,
-  //   title: "Box of Organic Apples",
-  //  status: "claimed",
-  //   date: "June 12, 2024",
-  //   image: "https://dummyimage.com/120x120/cccccc/000000&text=Apples",
-  // },
+   {
+    id: 1,
+    title: "Fresh Loaf of Sourdough Bread",
+    status: "Available",
+    date: "June 15, 2024",
+    image: "https://dummyimage.com/120x120/cccccc/000000&text=Bread",
+  },
+  {
+    id: 2,
+    title: "Box of Organic Apples",
+   status: "claimed",
+    date: "June 12, 2024",
+    image: "https://dummyimage.com/120x120/cccccc/000000&text=Apples",
+  },
 ];
 
 

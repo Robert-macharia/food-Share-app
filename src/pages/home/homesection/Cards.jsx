@@ -7,9 +7,9 @@ const Cards = ({ items = [] }) => {
         {items.map((it, idx) => {
           const centerIdx = Math.floor(items.length / 2)
           const isCenter = idx === centerIdx
-          const baseClasses = 'rounded-xl text-gray-900'
-          const centerClasses = 'p-8 shadow-2xl transform -translate-y-4 scale-105 z-30 bg-white'
-          const normalClasses = 'p-6 shadow-md bg-white'
+          const baseClasses = 'rounded-xl text-black-900'
+          const centerClasses = 'p-8 shadow-2xl  scale-107 z-30 bg-white'
+          const normalClasses = 'p-6 shadow-2xl bg-white'
           return (
             <article key={it.id} className={`relative ${baseClasses} ${isCenter ? centerClasses : normalClasses}`}>
               <div className={`${isCenter ? 'w-12 h-12 text-2xl' : 'w-10 h-10'} rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mb-3`}>{it.icon}</div>
